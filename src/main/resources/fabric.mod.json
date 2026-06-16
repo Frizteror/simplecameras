@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "simplecameras",
+  "version": "${version}",
+  "name": "Simple Cameras",
+  "description": "A simple camera and monitor system for Minecraft",
+  "authors": [
+    "Kolobov"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Frizteror/simplecameras",
+    "sources": "https://github.com/Frizteror/simplecameras",
+    "issues": "https://github.com/Frizteror/simplecameras/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/simplecameras/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kolobov.simplecameras.SimpleCamerasModInitializer"
+    ]
+  },
+  "mixins": [
+    "simplecameras.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  }
+}

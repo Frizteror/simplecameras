@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "simplecameras:block/camera_monitor" }
+  }
+}

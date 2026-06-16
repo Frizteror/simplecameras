@@ -1,0 +1,8 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "simplecameras:block/security_camera_top",
+    "front": "simplecameras:block/security_camera_front",
+    "side": "simplecameras:block/security_camera_side"
+  }
+}
